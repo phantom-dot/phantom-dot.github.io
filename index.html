@@ -10,49 +10,53 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <style>
-    #main-div{
-        height: 100vh;
+    #main-div {
+      height: 100vh;
     }
-    *{
-        font-family: "Inter", sans-serif;
+    * {
+      font-family: "Inter", sans-serif;
     }
     body {
-      background-color: #121212 ;
+      background-color: #121212;
     }
-    nav{
-       padding: 50px;
+    nav {
+      padding: 50px;
     }
-    nav ul li a{
-        color: gray !important;
-        
+    nav ul li a {
+      color: gray !important;
     }
-    nav ul li a:hover{
-        color: white !important;
+    nav ul li a:hover {
+      color: white !important;
     }
-    #image{
+    #image {
       width: 90px;
     }
-    #main-content{
-       width: 550px;
-        padding-left: 40px;
-        padding-right: 40px;
-
+    #text-content {
+      width: 550px;
+      padding-left: 40px;
+      padding-right: 40px;
     }
-
-   
+    #main-content{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
   </style>
-
 
   <body>
     <div id="main-div">
       <nav>
-        <ul class="nav justify-content-left">
+        <ul class="nav justify-content-center">
           <li class="nav-item">
             <a class="nav-link" href="#">LinkedIn</a>
           </li>
@@ -62,38 +66,46 @@
           <li class="nav-item">
             <a class="nav-link" href="#">Projects</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Resume</a>
+          </li>
         </ul>
       </nav>
 
       <div id="main-content">
-        
         <div id="text-content">
-            <div id="image"> <img class="rounded-circle img-fluid" src="./assets/WhatsApp Image 2024-04-27 at 11.29.49 AM.jpeg" alt=""></div>
+          <div id="image">
+            <img
+              class="rounded-circle img-fluid"
+              src="./assets/WhatsApp Image 2024-04-27 at 11.29.49 AM.jpeg"
+              alt=""
+            />
+          </div>
+          <br />
+          <div style="color: white; ">Hi, I'm Sahil.</div>
             <br>
-            <div style="color: white;">Hi, I'm Sahil.</div>
+          <p style="color: gray; font-size: 20px;">
+            A Software Developer who develops well-architected applications.
+            Passionate to develop them with engineering and design principles.
+            Currently on the path of learning ⚡️
+          </p>
 
-            <p style="color: gray;">A Software Developer who develops well-architected applications. 
-                Passionate to develop them with engineering and design principles. 
-                Currently working on Depremzede ⚡️</p>
-            
-                <hr>
-                <br>
+          <hr />
+          <br />
 
-            <h1  style="color: white;">Top Skills -</h1>
-            <br>
-            <p>TypeScript
-                ·
-                React.js
-                ·
-                Node.js
-                ·
-                Software Design
-                ·
-                User Experience</p>
+          <h1 style="color: white">Top Skills -</h1>
+          <br />
+          <p style="color: gray;">
+             HTML · CSS · JS · React.js · Talwind css · Core Java 
+          </p>
+        </div>
 
+        <div id="emoji" style="width:400px;">
+          <img class="img-fluid" src="./assets/emojis/boy-with-hoodie-working-on-laptop.png" alt="" />
         </div>
       </div>
     </div>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
