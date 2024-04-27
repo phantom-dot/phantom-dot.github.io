@@ -29,7 +29,7 @@
       background-color: #121212;
     }
     nav {
-      padding: 50px;
+      padding: 25px;
     }
     nav ul li a {
       color: gray !important;
@@ -45,62 +45,95 @@
       padding-left: 40px;
       padding-right: 40px;
     }
-    #main-content{
+    #main-content {
       display: flex;
       align-items: center;
       justify-content: space-around;
       flex-wrap: wrap;
     }
+    #projects{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      padding-left: 40px;
+      padding-right: 40px;
+    }
   </style>
 
   <body>
-    <div id="main-div">
-      <nav>
-        <ul class="nav justify-content-center">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Github</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Resume</a>
-          </li>
-        </ul>
-      </nav>
+    <div>
+      <div id="main-div">
+        <nav>
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/phantom-dot"
+                >Github</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://drive.google.com/file/d/1GkTjs7zATzxps0MLsWvF_BvwDaDIwYNa/view?usp=sharing"
+                >Resume</a
+              >
+            </li>
+          </ul>
+        </nav>
 
-      <div id="main-content">
-        <div id="text-content">
-          <div id="image">
+        <div id="main-content">
+          <div id="text-content">
+            <div id="image">
+              <img
+                class="rounded-circle img-fluid"
+                src="./assets/WhatsApp Image 2024-04-27 at 11.29.49 AM.jpeg"
+                alt=""
+              />
+            </div>
+            <br />
+            <div style="color: white">Hi, I'm Sahil.</div>
+            <br />
+            <p style="color: gray; font-size: 20px">
+              A Software Developer who develops well-architected applications.
+              Passionate to develop them with engineering and design principles.
+              Currently on the path of learning ⚡️
+            </p>
+
+            <hr />
+            <br />
+
+            <h1 style="color: white">Top Skills -</h1>
+            <br />
+            <p style="color: gray">
+              HTML · CSS · JS · React.js · Talwind css · Core Java
+            </p>
+          </div>
+
+          <div id="emoji" style="width: 400px">
             <img
-              class="rounded-circle img-fluid"
-              src="./assets/WhatsApp Image 2024-04-27 at 11.29.49 AM.jpeg"
+              class="img-fluid"
+              src="./assets/emojis/boy-with-hoodie-working-on-laptop.png"
               alt=""
             />
           </div>
-          <br />
-          <div style="color: white; ">Hi, I'm Sahil.</div>
-            <br>
-          <p style="color: gray; font-size: 20px;">
-            A Software Developer who develops well-architected applications.
-            Passionate to develop them with engineering and design principles.
-            Currently on the path of learning ⚡️
-          </p>
-
-          <hr />
-          <br />
-
-          <h1 style="color: white">Top Skills -</h1>
-          <br />
-          <p style="color: gray;">
-             HTML · CSS · JS · React.js · Talwind css · Core Java 
-          </p>
-        </div>
-
-        <div id="emoji" style="width:400px;">
-          <img class="img-fluid" src="./assets/emojis/boy-with-hoodie-working-on-laptop.png" alt="" />
         </div>
       </div>
+      <br>
+
+      <div id="projects">
+
+        <h1 style="color: white">Projects -</h1>
+            <br />
+            <p style="color: gray">
+              Currently have nothing to show 😴
+            </p>
+
+      </div>
+
+
     </div>
 
     <script
